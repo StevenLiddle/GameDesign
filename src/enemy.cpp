@@ -21,3 +21,9 @@ public:
 		return this->dead;
 	}
 };
+
+// The bull has now inherited the Enemy class
+class Bull: public Enemy {
+public:
+	void attack() {/*Run attack code*/}
+};
