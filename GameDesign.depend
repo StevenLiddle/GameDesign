@@ -1,0 +1,33 @@
+# depslib dependency file v1.0
+1431417649 source:/home/zachary/Documents/Github/GameDesign/main.cpp
+	<iostream>
+	<GL/glew.h>
+	"display.h"
+	"shaders.h"
+	"mesh.h"
+
+1431408800 /home/zachary/Documents/Github/GameDesign/include/display.h
+	<SDL2/SDL.h>
+	<string>
+
+1431414206 source:/home/zachary/Documents/Github/GameDesign/src/display.cpp
+	<iostream>
+	"display.h"
+	<GL/glew.h>
+
+1431414613 /home/zachary/Documents/Github/GameDesign/include/shaders.h
+	<string>
+	<GL/glew.h>
+
+1431414654 source:/home/zachary/Documents/Github/GameDesign/src/shaders.cpp
+	"shaders.h"
+	<iostream>
+	<fstream>
+
+1431416185 /home/zachary/Documents/Github/GameDesign/include/mesh.h
+	<glm/glm.hpp>
+	<GL/glew.h>
+
+1431417664 source:/home/zachary/Documents/Github/GameDesign/src/mesh.cpp
+	"mesh.h"
+
